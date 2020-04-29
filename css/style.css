@@ -1,0 +1,335 @@
+*{
+	margin: 0px;
+	padding :0px;
+}
+
+body {
+	background-color: #f6f9f9;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+	width: 1140px;
+	margin:0 auto;
+}
+
+/* header section start */
+header {
+	background-color: #f6f9f9;
+	padding: 30px 0px;
+	position: relative;
+	width: 100%;
+	float:left;
+}
+.logo{
+	width: 50%;
+	float: left;
+
+}
+
+.menu{
+	width: 50%;
+	float: left;
+
+}
+
+nav ul{
+	list-style: none;
+	text-align: right;
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 10px 18px;
+
+}
+
+nav ul a {
+	color: #2196f3;
+	text-decoration: none;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+/* banner*/
+
+.banner {
+	background: url(../img/banner.png) no-repeat;
+	min-height: 897px;
+	background-size: cover;
+	width: 100%;
+	float: left;
+}
+
+.banner-content {
+	padding-top: 200px;
+	padding-bottom: 80px;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.banner-content h2{
+	font-size: 120px;
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+.banner-content span{
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	width: 83%;
+	margin:20px auto;
+}
+
+.banner-content p{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.btn-cstm{
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	padding: 12px 24px;
+	color: #fff;
+	margin: 10% 0;
+}
+
+.banner-content h6{
+	padding: 
+	margin:
+}
+.fa.fa-chevron-down{
+	color: #fff;
+	font-size: 20px;
+}
+/* about section*/
+
+.about{
+	background-color: #f6f9f9;
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+
+}
+
+.about-content {
+text-align: center;
+width: 85%;
+margin: 0 auto;
+}
+
+.about-content h2{
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.about-content p{
+	font-size: 20px;
+	text-align: center;
+	color: #999999
+}
+.featuer{
+	background-color: #ffffff;
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+}
+
+.featuer-content{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.featuer-one{
+	width: 32%;
+	height:250px;
+	float: left;
+	padding: 5px;
+
+}
+
+.featuer-two{
+	width: 32%;
+	height: 250px;
+	float: left;
+	padding: 5px;
+	
+}
+
+.featuer-three{
+	width: 32%;
+	height:250px;
+	float: left;
+	padding: 5px;
+	
+}
+
+
+.gallery{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+
+}
+
+.gallery h2{
+	font-size: 41px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.gallery p{
+	font-size: 15px;
+	text-align: center;
+	color: #999999
+}
+
+.image-hover{
+	width: 31.33%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	margin-left: 15px
+
+}
+
+.image-hover img{
+	width: 100%;
+}
+
+.image-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #2196f38c;
+	top: 0;
+	right: 0;
+	color: #fff;
+	transition: 0.4s ease-in-out;
+	opacity: 0;
+
+}
+
+.image-content h2{
+	position: absolute;
+	top: 45%;
+	left: 24%;
+}
+
+.image-content p{
+	position: absolute;
+	top: 56%;
+	left: 23%;
+}
+
+.image-hover:hover .image-content{
+	opacity: 1;
+}
+
+.contact{
+	width: 100%;
+	float: left;
+	padding: 77px 0px 53px;
+	background: url(../img/stay.png)no-repeat;
+	background-size: cover;
+	display: block;
+	min-height: 300px;
+	text-align: center;
+}
+.contact-form {
+	width: 50%;
+	margin: 0 auto;
+}
+.form-contorl{
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	padding: 5px;
+	margin-bottom: 13px;
+}
+
+.tet-cstm{
+	width: 100%;
+	padding:5px;
+	height: 92px;
+	background: transparent;
+	color: #fff;
+}
+
+.form-footer{
+
+}
+
+.footer-left{
+float: left;
+width: 487px;
+margin: 0 auto;
+text-align: left;
+
+}
+
+.footer-left input[type='checkbox']{
+	margin: 28px 10px 0 0;
+}
+.footer-right{
+float: right;
+
+}
+
+.btn-submit{
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	padding: 12px 24px;
+	color: #fff;
+	margin: 10% 0;
+}
+
+.copyright{
+	padding: 70px 0;
+
+
+}
+.copyright-credit{
+width: 50%;
+float:left;
+padding: 30px 0 20px 0;
+font-size: 18px;
+}
+
+.copyright-credit p{
+	text-align: left;
+	color: #999999;
+}
+.socail-icons{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+.socail-icons ul{
+	list-style: none;
+
+}
+
+.socail-icons ul li{
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+.socail-icons ul li a {
+	text-align: right;
+	background: #15a4fa;
+	padding: 6px 12px;
+	color: #fff;
+	font-size: 15px;
+
+}
